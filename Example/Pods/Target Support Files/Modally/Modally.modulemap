@@ -1,0 +1,6 @@
+framework module Modally {
+  umbrella header "Modally-umbrella.h"
+
+  export *
+  module * { export * }
+}

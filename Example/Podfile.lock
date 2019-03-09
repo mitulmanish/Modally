@@ -1,0 +1,16 @@
+PODS:
+  - Modally (0.1.0)
+
+DEPENDENCIES:
+  - Modally (from `../`)
+
+EXTERNAL SOURCES:
+  Modally:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Modally: 9de0441ece05a76bb22e6bf4ab090c4aa66087dd
+
+PODFILE CHECKSUM: 056b137bc1ed99e50314c7d2927b229f04463448
+
+COCOAPODS: 1.6.1

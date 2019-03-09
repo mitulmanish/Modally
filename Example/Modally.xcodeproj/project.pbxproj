@@ -15,6 +15,8 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9414925B78B712F377307331 /* Pods_Modally_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5F9B0027C850EF4D64F18D /* Pods_Modally_Tests.framework */; };
 		DC210E88A80E7A9869872DB5 /* Pods_Modally_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C41EE7AD04CCE714CC538D0 /* Pods_Modally_Example.framework */; };
+		DD1C39B32233DF300082E860 /* ModalViewControllerPresentationTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C39B22233DF300082E860 /* ModalViewControllerPresentationTransitionDelegate.swift */; };
+		DD1C39B52233E16C0082E860 /* UIView+roundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C39B42233E16C0082E860 /* UIView+roundedCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +31,9 @@
 
 /* Begin PBXFileReference section */
 		06E55CBCDD915B178AFDF071 /* Pods-Modally_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modally_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Modally_Tests/Pods-Modally_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		43B600E3FAB24C9ACD376269 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43B600E3FAB24C9ACD376269 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		58045A4DE2B99F25B5BD680C /* Pods-Modally_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modally_Tests.release.xcconfig"; path = "Target Support Files/Pods-Modally_Tests/Pods-Modally_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5910F43BF6EF312F748398C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5910F43BF6EF312F748398C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Modally_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modally_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +45,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7C41EE7AD04CCE714CC538D0 /* Pods_Modally_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modally_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2164B2E5A6A494BAD25F9D0 /* Modally.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Modally.podspec; path = ../Modally.podspec; sourceTree = "<group>"; };
+		B2164B2E5A6A494BAD25F9D0 /* Modally.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Modally.podspec; path = ../Modally.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DD1C39B22233DF300082E860 /* ModalViewControllerPresentationTransitionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewControllerPresentationTransitionDelegate.swift; sourceTree = "<group>"; };
+		DD1C39B42233E16C0082E860 /* UIView+roundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+roundedCorners.swift"; sourceTree = "<group>"; };
 		E4B286204616BDCF6F9B697A /* Pods-Modally_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modally_Example.release.xcconfig"; path = "Target Support Files/Pods-Modally_Example/Pods-Modally_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E76F9807FCB1F0DE0AF13FE9 /* Pods-Modally_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modally_Example.debug.xcconfig"; path = "Target Support Files/Pods-Modally_Example/Pods-Modally_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FA5F9B0027C850EF4D64F18D /* Pods_Modally_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modally_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +112,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				DD1C39B22233DF300082E860 /* ModalViewControllerPresentationTransitionDelegate.swift */,
+				DD1C39B42233E16C0082E860 /* UIView+roundedCorners.swift */,
 			);
 			name = "Example for Modally";
 			path = Modally;
@@ -156,7 +162,6 @@
 				06E55CBCDD915B178AFDF071 /* Pods-Modally_Tests.debug.xcconfig */,
 				58045A4DE2B99F25B5BD680C /* Pods-Modally_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,16 +213,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1010;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1010;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -337,6 +342,8 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				DD1C39B32233DF300082E860 /* ModalViewControllerPresentationTransitionDelegate.swift in Sources */,
+				DD1C39B52233E16C0082E860 /* UIView+roundedCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,12 +397,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -443,12 +452,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -487,8 +498,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -502,8 +512,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -523,8 +532,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modally_Example.app/Modally_Example";
 			};
 			name = Debug;
@@ -541,8 +549,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modally_Example.app/Modally_Example";
 			};
 			name = Release;

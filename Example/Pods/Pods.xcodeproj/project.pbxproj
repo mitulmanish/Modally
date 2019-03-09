@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261BD024C4989E3C47764521C2862DCC /* Pods-Modally_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D63D8490DE0C1E99D25FABE1B639D080 /* Pods-Modally_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F385578FCACB2E6240DCA6BBA9F894 /* Modally-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E75C5FDCEBB0F5375784420AA2C2DB4B /* Modally-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC2AE6D968B9D46422AECB8CE1E16AB /* Modally-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9544850F5507300C3169A37DE5909C9 /* Modally-dummy.m */; };
+		8E02F5C275146DE734F680F051A8F47C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A04EA496FC074F7BDF80B197380011DF /* Pods-Modally_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BD6773772D6E1411FB1F051D4E342E /* Pods-Modally_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7DC0998C16E3B554170CFE6BC17FC39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C08B25D556C2798E2ED5F40097DF615D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CB99A4152283FF04877DACC016CDBC39 /* Pods-Modally_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B2DAFC4A45A07B32E3964902B0E9F /* Pods-Modally_Example-dummy.m */; };
+		D33C8730ECD348DAEFC5C4DC67DA3EC0 /* Pods-Modally_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6F416FBAEE24E1D7921D37D0FDF962 /* Pods-Modally_Tests-dummy.m */; };
+		DD1C39B12233DDC00082E860 /* ModalViewControllerPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C39B02233DDC00082E860 /* ModalViewControllerPresentationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FA7A392214827EF05D237F2F5C47C3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B9D6CD53D78713BFE54C8B77BEF01A;
+			remoteInfo = Modally;
+		};
+		7627EFAA5392F93911EB8D902BBB4BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE57C118E17BA6A71E093153CD2E7B4;
+			remoteInfo = "Pods-Modally_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034C9602870306A6A8D2F4FA6FB25518 /* Modally.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Modally.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C2AD52EA1D74EE5DA745ABCA9DCA26 /* Pods-Modally_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Modally_Tests-Info.plist"; sourceTree = "<group>"; };
+		0EE5FB959CF98298BC5D1BEF303B0CF5 /* Pods-Modally_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Modally_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		24770249E7074D547DD67706F6E63513 /* Modally.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Modally.modulemap; sourceTree = "<group>"; };
+		372D7590D68E3A67C12CDD2D44908909 /* Pods-Modally_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Modally_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F26618E2FDCA8AA42537D68197D0E28 /* Modally.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Modally.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44503CA0A76E75C8A21DB238CDA5FF1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4A3187261190226DDECEA5BA4FCC3C8D /* Pods-Modally_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Modally_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E17300A8266B390FF912CC3C7DDE5BA /* Pods-Modally_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Modally_Example-frameworks.sh"; sourceTree = "<group>"; };
+		574269974B26B71C7D2BB7253E8650FB /* Modally-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Modally-prefix.pch"; sourceTree = "<group>"; };
+		8675E9A13DDD3A63C347E0D52171D6CF /* Modally-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Modally-Info.plist"; sourceTree = "<group>"; };
+		8788B13C25BD72E9FBA321AA334632B0 /* Pods-Modally_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Modally_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		879B99F78F086AA5C3CE1D6EF06F314E /* Pods-Modally_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Modally_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8ECE5409F8E93068DB22B342BFA63FA3 /* Pods_Modally_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modally_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B44256C03DB4C7736BEA5D6B87BA166 /* Pods_Modally_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modally_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A43195E33D164D8C0AD6D56544EA7ED2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A61E5B97ECBD3667A091B1EFBBDB95C5 /* Pods-Modally_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Modally_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6BD6773772D6E1411FB1F051D4E342E /* Pods-Modally_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Modally_Example-umbrella.h"; sourceTree = "<group>"; };
+		A9544850F5507300C3169A37DE5909C9 /* Modally-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Modally-dummy.m"; sourceTree = "<group>"; };
+		AACA030E3089D88B1924C8198B106FE0 /* Pods-Modally_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Modally_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6F2783AC123440208CF0B953E3DC821 /* Modally.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Modally.xcconfig; sourceTree = "<group>"; };
+		C2F52F2CA371A4A5EE64BD3EFB2CD4E3 /* Pods-Modally_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Modally_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5DAD3D7CA8B9A7B5C526C9AC03C3AA7 /* Pods-Modally_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Modally_Example-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD6F416FBAEE24E1D7921D37D0FDF962 /* Pods-Modally_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Modally_Tests-dummy.m"; sourceTree = "<group>"; };
+		D63D8490DE0C1E99D25FABE1B639D080 /* Pods-Modally_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Modally_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DD1C39B02233DDC00082E860 /* ModalViewControllerPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModalViewControllerPresentationController.swift; path = Modally/Classes/ModalViewControllerPresentationController.swift; sourceTree = "<group>"; };
+		E75C5FDCEBB0F5375784420AA2C2DB4B /* Modally-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Modally-umbrella.h"; sourceTree = "<group>"; };
+		EE5BC96A5017543CE0B967B79BF7DF45 /* Pods-Modally_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Modally_Tests.modulemap"; sourceTree = "<group>"; };
+		F1D1490F0101C207470D1C1B688BFA00 /* Pods-Modally_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Modally_Example.modulemap"; sourceTree = "<group>"; };
+		FD9B2DAFC4A45A07B32E3964902B0E9F /* Pods-Modally_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Modally_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091BEFAE9CD408BD5C0ADE6647AAD76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DC0998C16E3B554170CFE6BC17FC39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F40F02C969F7E8F69E034C7B0693853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08B25D556C2798E2ED5F40097DF615D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4024753F510A1EDC06EA19B867C456D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02F5C275146DE734F680F051A8F47C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000DDA6AFC1AFE49C077051DDE2D2639 /* Pods-Modally_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F1D1490F0101C207470D1C1B688BFA00 /* Pods-Modally_Example.modulemap */,
+				8788B13C25BD72E9FBA321AA334632B0 /* Pods-Modally_Example-acknowledgements.markdown */,
+				A61E5B97ECBD3667A091B1EFBBDB95C5 /* Pods-Modally_Example-acknowledgements.plist */,
+				FD9B2DAFC4A45A07B32E3964902B0E9F /* Pods-Modally_Example-dummy.m */,
+				4E17300A8266B390FF912CC3C7DDE5BA /* Pods-Modally_Example-frameworks.sh */,
+				C5DAD3D7CA8B9A7B5C526C9AC03C3AA7 /* Pods-Modally_Example-Info.plist */,
+				A6BD6773772D6E1411FB1F051D4E342E /* Pods-Modally_Example-umbrella.h */,
+				879B99F78F086AA5C3CE1D6EF06F314E /* Pods-Modally_Example.debug.xcconfig */,
+				AACA030E3089D88B1924C8198B106FE0 /* Pods-Modally_Example.release.xcconfig */,
+			);
+			name = "Pods-Modally_Example";
+			path = "Target Support Files/Pods-Modally_Example";
+			sourceTree = "<group>";
+		};
+		11487E8D999135250C78EACC6A262CB6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				44503CA0A76E75C8A21DB238CDA5FF1A /* LICENSE */,
+				3F26618E2FDCA8AA42537D68197D0E28 /* Modally.podspec */,
+				A43195E33D164D8C0AD6D56544EA7ED2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D9FA1B0BB01EB5B7B4CEB78B02BCA6E /* Pods-Modally_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE5BC96A5017543CE0B967B79BF7DF45 /* Pods-Modally_Tests.modulemap */,
+				C2F52F2CA371A4A5EE64BD3EFB2CD4E3 /* Pods-Modally_Tests-acknowledgements.markdown */,
+				372D7590D68E3A67C12CDD2D44908909 /* Pods-Modally_Tests-acknowledgements.plist */,
+				CD6F416FBAEE24E1D7921D37D0FDF962 /* Pods-Modally_Tests-dummy.m */,
+				09C2AD52EA1D74EE5DA745ABCA9DCA26 /* Pods-Modally_Tests-Info.plist */,
+				D63D8490DE0C1E99D25FABE1B639D080 /* Pods-Modally_Tests-umbrella.h */,
+				4A3187261190226DDECEA5BA4FCC3C8D /* Pods-Modally_Tests.debug.xcconfig */,
+				0EE5FB959CF98298BC5D1BEF303B0CF5 /* Pods-Modally_Tests.release.xcconfig */,
+			);
+			name = "Pods-Modally_Tests";
+			path = "Target Support Files/Pods-Modally_Tests";
+			sourceTree = "<group>";
+		};
+		3AE885F9DD583B6779D82A34F81EEAA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034C9602870306A6A8D2F4FA6FB25518 /* Modally.framework */,
+				9B44256C03DB4C7736BEA5D6B87BA166 /* Pods_Modally_Example.framework */,
+				8ECE5409F8E93068DB22B342BFA63FA3 /* Pods_Modally_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78F2A05EB0FB696698EF9E057D3C0B5C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F1993DEE59C3A6D092FCB7462B2D4F5 /* Modally */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8F1993DEE59C3A6D092FCB7462B2D4F5 /* Modally */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C39B02233DDC00082E860 /* ModalViewControllerPresentationController.swift */,
+				11487E8D999135250C78EACC6A262CB6 /* Pod */,
+				B87AE3F49D89957F0152B0CB62AC36C4 /* Support Files */,
+			);
+			name = Modally;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		95590D010BCACFAB6430AFDDBEC36DE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				000DDA6AFC1AFE49C077051DDE2D2639 /* Pods-Modally_Example */,
+				1D9FA1B0BB01EB5B7B4CEB78B02BCA6E /* Pods-Modally_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B87AE3F49D89957F0152B0CB62AC36C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24770249E7074D547DD67706F6E63513 /* Modally.modulemap */,
+				B6F2783AC123440208CF0B953E3DC821 /* Modally.xcconfig */,
+				A9544850F5507300C3169A37DE5909C9 /* Modally-dummy.m */,
+				8675E9A13DDD3A63C347E0D52171D6CF /* Modally-Info.plist */,
+				574269974B26B71C7D2BB7253E8650FB /* Modally-prefix.pch */,
+				E75C5FDCEBB0F5375784420AA2C2DB4B /* Modally-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Modally";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				78F2A05EB0FB696698EF9E057D3C0B5C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3AE885F9DD583B6779D82A34F81EEAA0 /* Products */,
+				95590D010BCACFAB6430AFDDBEC36DE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34BFD85BFB3BF91B0455F08275236325 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F385578FCACB2E6240DCA6BBA9F894 /* Modally-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFFF3A77C3B56261493BDFBEEFC11B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261BD024C4989E3C47764521C2862DCC /* Pods-Modally_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A455D98F67776D82FC4E9126685DB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04EA496FC074F7BDF80B197380011DF /* Pods-Modally_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03B9D6CD53D78713BFE54C8B77BEF01A /* Modally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C169A9101EF3BEA7B236B6282A3326F /* Build configuration list for PBXNativeTarget "Modally" */;
+			buildPhases = (
+				34BFD85BFB3BF91B0455F08275236325 /* Headers */,
+				A21D698931377155010B48B934E6E313 /* Sources */,
+				3F40F02C969F7E8F69E034C7B0693853 /* Frameworks */,
+				5356B8BF475FF4175995EAD4AD5EA83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Modally;
+			productName = Modally;
+			productReference = 034C9602870306A6A8D2F4FA6FB25518 /* Modally.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0505E3D2B9A9A4A282F91A8E230D8835 /* Pods-Modally_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8300ECC8BDE8CD608EFC2B64372EAFE4 /* Build configuration list for PBXNativeTarget "Pods-Modally_Tests" */;
+			buildPhases = (
+				5EFFF3A77C3B56261493BDFBEEFC11B6 /* Headers */,
+				8D2F702E381D7A78DF291C36EC128B8B /* Sources */,
+				091BEFAE9CD408BD5C0ADE6647AAD76D /* Frameworks */,
+				9D4D83AE737898184CBB7B1074D18283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C032872AD681E6AE4A67C361AAF04BD4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Modally_Tests";
+			productName = "Pods-Modally_Tests";
+			productReference = 8ECE5409F8E93068DB22B342BFA63FA3 /* Pods_Modally_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CE57C118E17BA6A71E093153CD2E7B4 /* Pods-Modally_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AADBCA296D57D59E50B474D5E85DDE /* Build configuration list for PBXNativeTarget "Pods-Modally_Example" */;
+			buildPhases = (
+				91A455D98F67776D82FC4E9126685DB7 /* Headers */,
+				64F1E12223E3352DC56234FC2A927E79 /* Sources */,
+				4024753F510A1EDC06EA19B867C456D5 /* Frameworks */,
+				806C09A14DD5AAD8722F2420806A3EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52FB3CD9058F076E36386E92353A436 /* PBXTargetDependency */,
+			);
+			name = "Pods-Modally_Example";
+			productName = "Pods-Modally_Example";
+			productReference = 9B44256C03DB4C7736BEA5D6B87BA166 /* Pods_Modally_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					03B9D6CD53D78713BFE54C8B77BEF01A = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3AE885F9DD583B6779D82A34F81EEAA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B9D6CD53D78713BFE54C8B77BEF01A /* Modally */,
+				6CE57C118E17BA6A71E093153CD2E7B4 /* Pods-Modally_Example */,
+				0505E3D2B9A9A4A282F91A8E230D8835 /* Pods-Modally_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5356B8BF475FF4175995EAD4AD5EA83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806C09A14DD5AAD8722F2420806A3EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4D83AE737898184CBB7B1074D18283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F1E12223E3352DC56234FC2A927E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB99A4152283FF04877DACC016CDBC39 /* Pods-Modally_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2F702E381D7A78DF291C36EC128B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33C8730ECD348DAEFC5C4DC67DA3EC0 /* Pods-Modally_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21D698931377155010B48B934E6E313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC2AE6D968B9D46422AECB8CE1E16AB /* Modally-dummy.m in Sources */,
+				DD1C39B12233DDC00082E860 /* ModalViewControllerPresentationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A52FB3CD9058F076E36386E92353A436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Modally;
+			target = 03B9D6CD53D78713BFE54C8B77BEF01A /* Modally */;
+			targetProxy = 6FA7A392214827EF05D237F2F5C47C3A /* PBXContainerItemProxy */;
+		};
+		C032872AD681E6AE4A67C361AAF04BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Modally_Example";
+			target = 6CE57C118E17BA6A71E093153CD2E7B4 /* Pods-Modally_Example */;
+			targetProxy = 7627EFAA5392F93911EB8D902BBB4BBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F1E7E857F458612B385F6A59D59CDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879B99F78F086AA5C3CE1D6EF06F314E /* Pods-Modally_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Modally_Example/Pods-Modally_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Modally_Example/Pods-Modally_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28AC5D035A39A454DB47C9257EF73020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE5FB959CF98298BC5D1BEF303B0CF5 /* Pods-Modally_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Modally_Tests/Pods-Modally_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Modally_Tests/Pods-Modally_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3411E941E7AFCC0FC106C4548F74F5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F2783AC123440208CF0B953E3DC821 /* Modally.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Modally/Modally-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Modally/Modally-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Modally/Modally.modulemap";
+				PRODUCT_MODULE_NAME = Modally;
+				PRODUCT_NAME = Modally;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69A7A6DE913B017B0D7565F55268B380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACA030E3089D88B1924C8198B106FE0 /* Pods-Modally_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Modally_Example/Pods-Modally_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Modally_Example/Pods-Modally_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B0E84A0E9FBD8429477F0640E8E72A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F2783AC123440208CF0B953E3DC821 /* Modally.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Modally/Modally-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Modally/Modally-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Modally/Modally.modulemap";
+				PRODUCT_MODULE_NAME = Modally;
+				PRODUCT_NAME = Modally;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B90D37AF32165FBACACF3337AD28C0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3187261190226DDECEA5BA4FCC3C8D /* Pods-Modally_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Modally_Tests/Pods-Modally_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Modally_Tests/Pods-Modally_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C169A9101EF3BEA7B236B6282A3326F /* Build configuration list for PBXNativeTarget "Modally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3411E941E7AFCC0FC106C4548F74F5C9 /* Debug */,
+				7B0E84A0E9FBD8429477F0640E8E72A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8300ECC8BDE8CD608EFC2B64372EAFE4 /* Build configuration list for PBXNativeTarget "Pods-Modally_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90D37AF32165FBACACF3337AD28C0ED /* Debug */,
+				28AC5D035A39A454DB47C9257EF73020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AADBCA296D57D59E50B474D5E85DDE /* Build configuration list for PBXNativeTarget "Pods-Modally_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1E7E857F458612B385F6A59D59CDBB /* Debug */,
+				69A7A6DE913B017B0D7565F55268B380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

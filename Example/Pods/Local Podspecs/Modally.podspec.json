@@ -1,0 +1,22 @@
+{
+  "name": "Modally",
+  "version": "0.1.0",
+  "summary": "A short description of Modally.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mitulmanish/Modally",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mitulmanish": "mitul.manish@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mitulmanish/Modally.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Modally/Classes/**/*"
+}
