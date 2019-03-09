@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Modally_Example' do
+  pod 'Modally', :path => '../'
+
+  target 'Modally_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
